@@ -1,8 +1,14 @@
 export default function Main() {
     return (
-        <div>
-            <h1>Main section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus assumenda at quam cupiditate, quis nulla, similique possimus explicabo consectetur odit harum doloribus beatae sit provident sint amet sequi voluptates minima.</p>
-        </div>
+        <main>
+            <h1 className="main--title">Fun facts about React</h1>
+            <ul className="main--ul">
+                <li>Was first released in 2013</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 100K stars on GitHub</li>
+                <li>Is maintained by Facebook</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
+            </ul>
+        </main>
     );
 }

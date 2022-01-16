@@ -1,5 +1,74 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Inter", sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #21222a;
+    align-items: center;
+    /* width: 550px; */
+    height: 90px;
+    margin: auto;
+    padding: 30px 25px;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.nav--logo_text,
+.nav--side_text {
+    margin: 0;
+}
+
+.nav--logo_text {
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: auto;
+}
+
+.nav--side_text {
+    color: #deebf8;
+    font-weight: 600;
+}
+
+main {
+    background-color: #282d35;
+    color: #fff;
+    height: 100vh;
+    padding: 57px 27px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.85) 100%), url(./logo.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main--title {
+    font-size: 39px;
+    margin: 0;
+    letter-spacing: -0.05rem;
+}
+
+.main--ul {
+    margin-top: 46px;
+    max-width: 400px;
+    padding-left: 50px;
+}
+
+.main--ul > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--ul > li::marker {
+    font-size: 1.4rem;
+    color: #61dafb;
 }
